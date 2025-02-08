@@ -8,10 +8,10 @@ const Footer = () => {
             <img src="/public/Mephalti 3D.svg"alt="" />
 
             <div>
-                <img src="/public/icons/Group 50.svg" alt="" />
-                <img src="/public/icons/Group 51.svg" alt="" />
-                <img src="/public/icons/Group 52.svg" alt="" />
-                <img src="/public/icons/Group 53.svg" alt="" />
+                <img src="icons/Group 50.svg" alt="" />
+                <img src="icons/Group 51.svg" alt="" />
+                <img src="icons/Group 52.svg" alt="" />
+                <img src="icons/Group 53.svg" alt="" />
             </div>
         </Footer_Logo_Wrapper>
         <Footer_Details>

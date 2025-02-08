@@ -12,7 +12,7 @@ export const Navbar = styled.nav`
     z-index:1000;
     position:fixed;
     top:0;
-    background-image:url("/public/vectors/Ellipse 1.svg");
+    background-image:url("vectors/Ellipse 1.svg");
     background-color:#F6F4ED;
     background-repeat:no-repeat;
     img{
@@ -52,16 +52,15 @@ export const Navigations = styled.div`
         font-family: "Work Sans", serif;
         font-size:14px;
     }
-    /* @media screen and (max-width:650px){ */
-        /* display:none; */
-    /* } */
     @media screen and (max-width:650px){
     width: 100%;
-    height:${({active}) => active ? "300px" : "0px" }; 
+    height:${({
+// @ts-ignore
+    active}) => active ? "300px" : "0px" }; 
     left:0;
     top:50px;
     position:absolute;
-    background-image:url("/public/vectors/Ellipse 1.svg");
+    background-image:url("vectors/Ellipse 1.svg");
     background-color:#F6F4ED;
     background-repeat:no-repeat;
     display:flex;
@@ -71,7 +70,9 @@ export const Navigations = styled.div`
     align-items:center;
     transition-duration:0.8s;
     z-index:100;
-    visibility:${({active})=>active ? "show" : "hidden"};
+    visibility:${({
+// @ts-ignore
+    active})=>active ? "show" : "hidden"};
 
     a{
        text-decoration:none;
@@ -79,7 +80,9 @@ export const Navigations = styled.div`
        cursor: pointer;
        padding: 10px;
        color:#ffff;
-       visibility:${({active})=>active ? "show" : "hidden"};
+       visibility:${({
+// @ts-ignore
+       active})=>active ? "show" : "hidden"};
     }
 }
 
