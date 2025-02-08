@@ -522,7 +522,7 @@ top:5%;
 export const Testimonial_Card = styled.section`
 width:100%;
 height:192px ;
-background-image:url("/src/assets/Rectangle 10 (1).png");
+background-image:url("assets/Rectangle 10 (1).png");
 background-repeat:no-repeat;
 background-position:center;
 background-size:100;

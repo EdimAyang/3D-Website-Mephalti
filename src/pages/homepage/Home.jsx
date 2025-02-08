@@ -34,7 +34,7 @@ const Home = () => {
               </Button>
             </Hero_Text>
             <Hero_Image>
-              <img src="/src/assets/shoes_image_1 1.png" alt="" />
+              <img src="assets/shoes_image_1 1.png" alt="" />
             </Hero_Image>
         </Hero_Design>
       </Hero_Home>
@@ -45,7 +45,7 @@ const Home = () => {
           </Features_Heading>
           <Features_Dis>
             <div>
-              <img src="/src/assets/Group 9 (2).png" alt="" />
+              <img src="assets/Group 9 (2).png" alt="" />
               <div>
                 <div>Best Quality Shoes</div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -53,7 +53,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <img src="/src/assets/Group 10.png" alt="" />
+              <img src="assets/Group 10.png" alt="" />
               <div>
                 <div>Long Lasting Shoes</div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -61,7 +61,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <img src="/src/assets/Group 11 (2).png" alt="" />
+              <img src="assets/Group 11 (2).png" alt="" />
               <div>
                 <div>Best Price Range</div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting             industry.
@@ -71,7 +71,7 @@ const Home = () => {
           </Features_Dis>
         </Features_Texts>
         <Features_Image>
-          <img src="/src/assets/pngwing 1.png" alt="" />
+          <img src="assets/pngwing 1.png" alt="" />
         </Features_Image>
       </Features_section>
       <Product_Section>
@@ -113,21 +113,21 @@ const Home = () => {
           className="mySwiper"
           >
             <SwiperSlide className='s1'>
-              <img src="/src/assets/pngwing 2.png" alt="" />
+              <img src="assets/pngwing 2.png" alt="" />
               <div>
                 <div>Nike Sheos Air Max</div>
                 <p>Price $150</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='s2'>
-              <img src="/src/assets/pngwing 3 (2).png" alt="" />
+              <img src="assets/pngwing 3 (2).png" alt="" />
               <div>
                 <div>Nike Sheos Air Max</div>
                 <p>Price $150</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className='s3'>
-              <img src="/src/assets/pngwing 4.png" alt="" />
+              <img src="assets/pngwing 4.png" alt="" />
               <div>
                 <div>Nike Sheos Air Max</div>
                 <p>Price $150</p>
@@ -144,8 +144,8 @@ const Home = () => {
         </section>
       </Product_Section>
       <About_Section>
-        <img src="/src/assets/Ellipse 3 (2).png" alt="" />
-        <div><img src="/src/assets/5 1.png" alt="" /></div>
+        <img src="assets/Ellipse 3 (2).png" alt="" />
+        <div><img src="assets/5 1.png" alt="" /></div>
         <section>
           <div>About US</div>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -159,12 +159,12 @@ const Home = () => {
              text ever since the 1500s,</p>
         </div>
         <Gallary_Wrapper>
-          <Card1><img src="/src/assets/Rectangle 4 (1).png" alt="" /></Card1>
-          <Card2><img src="/src/assets/Rectangle 7 (1).png" alt="" /></Card2>
-          <Card3><img src="/src/assets/Rectangle 8.png" alt="" /></Card3>
-          <Card4><img src="/src/assets/Rectangle 9.png" alt="" /></Card4>
-          <Card5><img src="/src/assets/Rectangle 5.png" alt="" /></Card5>
-          <Card6><img src="/src/assets/Rectangle 6.png" alt="" /></Card6>
+          <Card1><img src="assets/Rectangle 4 (1).png" alt="" /></Card1>
+          <Card2><img src="assets/Rectangle 7 (1).png" alt="" /></Card2>
+          <Card3><img src="assets/Rectangle 8.png" alt="" /></Card3>
+          <Card4><img src="assets/Rectangle 9.png" alt="" /></Card4>
+          <Card5><img src="assets/Rectangle 5.png" alt="" /></Card5>
+          <Card6><img src="assets/Rectangle 6.png" alt="" /></Card6>
         </Gallary_Wrapper>
       </Product_Gallary>
       <Testimonial_Section>
@@ -174,14 +174,14 @@ const Home = () => {
             typesetting industry. Lorem Ipsum has been the  industry's standard dummy text ever since the 1500s, </p>
         </div>
         <Testimonial_Card>
-          <img src="/src/assets/Ellipse 6 (2).png" alt="" />
+          <img src="assets/Ellipse 6 (2).png" alt="" />
           <div>Emmanuel Ayang</div>
           <p>“
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.....</p>
         </Testimonial_Card>
       </Testimonial_Section>
       <News_Updates>
-        <div><img src="/src/assets/6 1.png" alt="" /></div>
+        <div><img src="assets/6 1.png" alt="" /></div>
         <News_Email_Wrapper>
           <News_Input_Wrapper>
             <div>Let us send you offer</div>
@@ -190,7 +190,7 @@ const Home = () => {
               <button><img src="/vectors/Frame.svg" alt="" /></button>
             </Button_Wrapper>
           </News_Input_Wrapper>
-          <div><img src="/src/assets/1 1.png" alt="" /></div>
+          <div><img src="assets/1 1.png" alt="" /></div>
         </News_Email_Wrapper>
       </News_Updates>
       <Footer />
