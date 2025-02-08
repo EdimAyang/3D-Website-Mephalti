@@ -27,7 +27,9 @@ const Home = () => {
                     tour travel lovers. Feel the tightness and comfort of these items.Open Catalog
                   </p>
                 </Hero_para>
-              <Button $large = {"150px"}>
+              <Button 
+// @ts-ignore
+              large = {"150px"}>
                 create
               </Button>
             </Hero_Text>

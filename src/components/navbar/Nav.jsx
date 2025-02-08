@@ -20,7 +20,9 @@ const handleNavigate = ()=>{
       <section>
         <img src="/Mephalti 3D.svg"alt="" />
       </section>
-      <Navigations active = {activeBar}>
+      <Navigations 
+// @ts-ignore
+      active = {activeBar}>
         <Link to ="/">Home</Link>
         <Link to = "/create">Create</Link>
         <Link to = "/contact">Contact</Link>

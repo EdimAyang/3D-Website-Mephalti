@@ -532,7 +532,7 @@ display:flex;
 flex-direction:column;
 justify-content:space-around;
 @media screen and (max-width:650px){
-    height:350px;
+    height:450px;
     padding:20px;
     background-size:cover;
 }
