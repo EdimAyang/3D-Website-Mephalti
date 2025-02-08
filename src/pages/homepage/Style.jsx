@@ -14,7 +14,7 @@ export const Hero_Home = styled.header`
     width:100%;
     height:700px;
     background-color:#F6F4ED;
-    background-image:url("/public/vectors/Ellipse 1.svg");
+    background-image:url("vectors/Ellipse 1.svg");
     background-repeat:no-repeat;
     position:relative;
     top:5%;
@@ -196,7 +196,7 @@ export const Features_Dis = styled.div`
 export const Features_Image = styled.div`
     width:517px;
     height:100%;
-    background-image:url("/src/assets/Ellipse 3.png");
+    background-image:url("assets/Ellipse 3.png");
     background-position:top;
     background-repeat:no-repeat;
     position:relative;
