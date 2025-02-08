@@ -134,7 +134,7 @@ const Home = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className='s4'>
-              <img src="/src/assets/pngwing 5.png" alt="" />
+              <img src="assets/pngwing 5.png" alt="" />
               <div>
                 <div>Nike Sheos Air Max</div>
                 <p>Price $150</p>
