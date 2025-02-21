@@ -101,13 +101,16 @@ export const Features_section = styled.section`
     gap:10px;
     position:relative;
     top:5%; 
+    margin-top:20%;
     @media screen and (max-width:650px){
         width:100%;
         flex-direction:column;
-        height:1300px;
+        height:1500px;
         margin:0;
         position:relative;
         top:5%;
+        margin-top:50%;
+        gap:90px;
     }
 `
 export const Features_Texts = styled.div`
@@ -120,7 +123,7 @@ export const Features_Texts = styled.div`
     gap:35px;
     @media screen and (max-width:650px){
         width:100%;
-
+        gap:70px;
     }
 `
 export const Features_Heading =  styled.div`
@@ -134,7 +137,7 @@ export const Features_Heading =  styled.div`
         color:#7B29DD;
     }
      @media screen and (max-width:650px){
-        height:150px;
+        height:190px;
         text-align:center;
      }
 `
@@ -147,6 +150,7 @@ export const Features_Dis = styled.div`
     align-items:center;
     @media screen and (max-width:650px){
         padding:10px;
+        
     }
     &>div{
         width:100%;
@@ -157,7 +161,7 @@ export const Features_Dis = styled.div`
         margin-bottom:2%;
         @media screen and (max-width:650px){
             height:145px;
-            margin-bottom:5%;
+            margin-bottom:10%;
         }
         img{
             background-color:#FDC400;
@@ -172,10 +176,12 @@ export const Features_Dis = styled.div`
             flex:1;
             display:flex;
             flex-direction:column;
-            justify-content:space-between;
+            /* justify-content:space-between; */
+            gap:20px;
             padding:10px;
             @media screen and (max-width:650px){
                 padding:5px;
+                gap:15px;
             }
 
             &>div{
@@ -221,11 +227,9 @@ export const Product_Section = styled.section`
     justify-content:space-between;
     position:relative;
     top:5%;
-   
+    margin-top:30%;
     gap:10%;
-    @media screen and (max-width:650px){
-        gap:10%;
-    }
+    
     &>section{
         width:100%;
         flex:1;
@@ -282,6 +286,7 @@ export const Product_Section = styled.section`
         height:640px;
         position:relative;
         top:5%;
+        margin-top:50%;
     }
     &>div{
         width:100%;
@@ -319,6 +324,7 @@ padding-left:5%;
 padding-right:5%;
 position:relative;
 top:5%;
+/* margin-bottom:150px; */
 background: hsla(267, 73%, 51%, 1);
 background: linear-gradient(135deg, hsla(267, 73%, 51%, 1) 0%, hsla(46, 100%, 50%, 1) 100%);
 
@@ -327,7 +333,7 @@ background: -moz-linear-gradient(135deg, hsla(267, 73%, 51%, 1) 0%, hsla(46, 100
 background: -webkit-linear-gradient(135deg, hsla(267, 73%, 51%, 1) 0%, hsla(46, 100%, 50%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B29DD", endColorstr="#FDC400", GradientType=1 );
-margin-top:20%;
+margin-top:35%;
 position:relative;
 &>img{
 position:absolute;
@@ -363,13 +369,16 @@ section{
         height:460px;
         width:100%;
         text-align:center;
-        margin-bottom:10px;
+        margin-bottom:15%;
     }
     &>div{
         color:#ffff;
         font-family: "Work Sans",
         serif;
         font-size:2.6em; 
+        @media screen and (max-width:650px){
+            padding:10px;
+        }
     }
     p{
         font-family: "Work Sans",serif;
@@ -383,7 +392,7 @@ section{
     flex-direction:column;
     padding:10px;
    height:790px;
-    margin-top:50%;
+    margin-top:98%;
     &>img{
         display:none;
     }
@@ -392,17 +401,17 @@ section{
 export const Product_Gallary = styled.section`
 display:flex;
 flex-direction:column;
-gap:30px;
+gap:90px;
 width:85%;
-height:1180px;
+height:1280px;
 margin:0 auto;
-margin-top:10%;
+margin-top:30%;
 position:relative;
 top:5%;
 @media screen and (max-width:650px){
     width:100%;
     height:3310px;
-
+    margin-top:50%;
 }
 &>div{
     width:80%;
@@ -447,6 +456,7 @@ export const Gallary_Wrapper = styled.section`
     @media screen and (max-width:650px){
         grid-template-columns:repeat(1,1fr);
         padding:20px;
+        margin-bottom:150px;
     }
 `
 export const Card1 = styled.div`
@@ -481,21 +491,22 @@ export const Card6 = styled.div`
 `
 export const Testimonial_Section = styled.section`
 width:70%;
-height:400px;
+height:700px;
 margin:0 auto;
-margin-top:10%;
+margin-top:30%;
 position:relative;
 top:5%;
+/* border:1px solid; */
 @media screen and (max-width:650px){
     width:100%;
     height:800px;
+    margin-top:60%;
 }
 &>div{
     width:80%;
     height:144px;
     text-align:center;
     margin:0 auto;
-    margin-bottom:80px;
     padding:10px;
     @media screen and (max-width:650px){
     width:100%;
@@ -506,10 +517,11 @@ top:5%;
         font-family: "Work Sans", serif;
         font-size:2.6em;
         font-weight:600;
-        margin-bottom:30px;
+        margin-bottom:0px;
         span{
             color:#7B29DD;
         }
+        @media screen and (max-width:650px){margin-bottom:25px;}
     }
     p{
         color:#1E1E1E;
@@ -521,20 +533,24 @@ top:5%;
 `
 export const Testimonial_Card = styled.section`
 width:100%;
-height:192px ;
-background-image:url("assets/Rectangle 10 (1).png");
-background-repeat:no-repeat;
-background-position:center;
-background-size:100;
+height:290px ;
+/* border:1px solid; */
+/* background-image:url("assets/Rectangle 10 (1).png"); */
+/* background-repeat:no-repeat; */
+/* background-position:center; */
+/* background-size:cover; */
 position:relative;
-padding:20px;
+padding:40px;
 display:flex;
 flex-direction:column;
-justify-content:space-around;
+justify-content:space-between;
+margin-top:15%;
+box-shadow:0px 0px 40px rgba(0 ,0, 0 ,0.2);
 @media screen and (max-width:650px){
-    height:450px;
+    height:350px;
     padding:20px;
-    background-size:cover;
+    background-color:#FDC400;
+    text-align:center;
 }
 img{
     position:absolute;
@@ -550,6 +566,7 @@ img{
     font-family: "Work Sans", serif;
     font-size:1.6em;
     font-weight:600;
+    @media screen and (max-width:650px){margin-top:30px;}
 
 }
 p{
@@ -576,11 +593,11 @@ export const News_Updates = styled.section`
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B29DD", endColorstr="#FDC400", 
     GradientType=1 );
-    margin-top:20%;
+    margin-top:30%;
     display:flex;
     justify-content:space-between;
     gap:20px;
-
+    @media screen and (max-width:650px){margin-top:50%;}
     &>div{
         height:100%;
         width:20%;

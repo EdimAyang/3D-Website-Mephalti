@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterStyles = styled.footer`
     width:100%;
     height:400px;
-    margin-top:5%;
+    margin-top:20%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -15,6 +15,7 @@ export const FooterStyles = styled.footer`
         flex-direction:column-reverse;
         height:770px;
         align-items:start;
+        margin-top:40%;
     }
 
 `
