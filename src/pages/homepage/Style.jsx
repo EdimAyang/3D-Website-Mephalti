@@ -82,10 +82,19 @@ line-height:1.2em;
 export const Hero_Image = styled.div`
    height:613px;
    width:100%;
+   animation:Heros 2s ease-in-out 0s alternate-reverse infinite;
+   @keyframes Heros{
+    0%{transform:translateX(0%);};
+    100%{transform:rotate(5deg) translateX(15%);}
+   }
    @media screen and (max-width:650px){
     img{
         width:100%;
         height:100%;
+        @keyframes Heros{
+ 0%{transform:translateX(25%);};
+ 100%{transform:rotate(-1deg) translateX(2%)}
+}
     }
    }
 `

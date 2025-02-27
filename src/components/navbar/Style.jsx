@@ -17,8 +17,8 @@ export const Navbar = styled.nav`
     background-repeat:no-repeat;
     img{
       transform:scale(0.7);
-
     }
+
     @media screen and (max-width:650px){
         height:50px;
         padding-left:0px;
@@ -94,5 +94,12 @@ export const Bars = styled.img`
     display:none;
     @media screen and (max-width:650px){
         display:block;
+        animation:logo 0.9s ease-in alternate-reverse infinite;
+
+    @keyframes logo {
+    0%{transform:scale(0.7);}
+    100%{transform:scale(0.5);}
+}
+        
     }
 `

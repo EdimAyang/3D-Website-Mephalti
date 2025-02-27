@@ -13,9 +13,9 @@ export const Button = styled.button`
     background-color:#FDC400;
     color:#1E1E1E;
     font-weight:bold;
-    transition:all 0.5s ease ;
+    transition:all 0.9s ease-out ;
 
     &:hover{
-        transform:scale(1.1)
+        transform:translate(10%)  rotate(-5deg);
     }
 `
