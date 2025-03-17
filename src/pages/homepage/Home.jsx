@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 // import required modules
-import { Pagination,Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 
 const Home = () => {
@@ -92,16 +92,14 @@ const Home = () => {
           }
           loop={true}
           spaceBetween={80}
-          pagination={{
-            clickable: true,
-          }}
+
           breakpoints={{
             640: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 40,
             },
             1024: {
@@ -109,7 +107,7 @@ const Home = () => {
               spaceBetween: 50,
             },
           }}
-          modules={[Pagination, Autoplay]}
+          modules={[Autoplay]}
           className="mySwiper"
           >
             <SwiperSlide className='s1'>

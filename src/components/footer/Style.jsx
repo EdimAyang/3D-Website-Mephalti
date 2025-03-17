@@ -10,7 +10,12 @@ export const FooterStyles = styled.footer`
     padding:5%;
     position:relative;
     top:5%;
-    @media screen and (max-width:650px){
+
+    //tablet
+@media screen and (max-width:1024px){
+    padding:10px;
+}
+    @media screen and (max-width:600px){
         padding:10px;
         flex-direction:column-reverse;
         height:770px;
@@ -41,7 +46,7 @@ export const Footer_Logo_Wrapper = styled.div`
             height:25px;
         }
     }
-    @media screen and (max-width:650px){
+    @media screen and (max-width:600px){
         margin-top:20px;
     }
 
@@ -55,7 +60,7 @@ export const Footer_Details = styled.div`
         height:100%;
         flex:1;
         text-align:start;
-        @media screen and (max-width:650px){
+        @media screen and (max-width:600px){
             margin-bottom:19px;
         }
         &>div{
@@ -74,7 +79,7 @@ export const Footer_Details = styled.div`
             font-size:18px;
         }
     }
-    @media screen and (max-width:650px){
+    @media screen and (max-width:600px){
         flex-direction:column;
     }
 `
