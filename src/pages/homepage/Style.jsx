@@ -93,7 +93,7 @@ export const Hero_Text = styled.div`
 }
     @media screen and (max-width:600px){
         width:100%;
-        height:480px;
+        height:580px;
         padding:20px;
         text-align:center;
     }
@@ -152,6 +152,7 @@ margin-bottom:20px;
 @media screen and (max-width:600px){
 width:100%;
 font-size:0.9em;
+margin-bottom:10%;
 }
 
 
@@ -188,7 +189,7 @@ export const Hero_Image = styled.div`
    @media screen and (max-width:600px){
     img{
         width:100%;
-        height:100%;
+        height:65%;
         @keyframes Heros{
         0%{transform:translateX(25%);};
         100%{transform:rotate(-1deg) translateX(2%)}
@@ -865,7 +866,11 @@ export const News_Updates = styled.section`
 }
 
 //mobile
-    @media screen and (max-width:600px){margin-top:50%;}
+    @media screen and (max-width:600px){
+        margin-top:50%;
+    }
+
+
     &>div{
         height:100%;
         width:20%;
@@ -873,7 +878,7 @@ export const News_Updates = styled.section`
         img{
             position:absolute;
             top:-40%;
-            left:0;
+            left:20;
         }
 
      //tablet
@@ -885,9 +890,13 @@ export const News_Updates = styled.section`
     //mobile
         @media screen and (max-width:600px){
     display:none;
-}
+        }
     }
+
+
     @media screen and (max-width:600px){
+        padding:0;
+        align-items:center;
   img{
     display:none;
   }
@@ -908,6 +917,7 @@ export const News_Email_Wrapper = styled.section`
 //mobile
    @media screen and (max-width:600px){
     width:100%;
+    justify-content:center;
 }
 `
 export const News_Input_Wrapper = styled.div`
@@ -928,12 +938,15 @@ export const News_Input_Wrapper = styled.div`
 @media screen and (max-width:1024px){
     text-align:start;
 }
-}
+
 
 //mobile
-@media screen and (max-width:650px){
+@media screen and (max-width:600px){
     width:100%;
+    text-align:center;
 }
+}
+
 `
 export const Button_Wrapper = styled.div`
     width:100%;
@@ -974,12 +987,12 @@ export const Button_Wrapper = styled.div`
             width:40px;
             height:40px;
         }
-        @media screen and (max-width:650px){
+        @media screen and (max-width:600px){
     display:flex;
     align-items:center;
 }
     }
-    @media screen and (max-width:650px){
+    @media screen and (max-width:600px){
     img{
         display:block;
     }
